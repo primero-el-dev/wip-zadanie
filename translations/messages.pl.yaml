@@ -1,0 +1,11 @@
+common:
+    http:
+        error_404: Nie znaleziono strony.
+        error_500: Błąd wewnętrzny.
+
+email:
+    credentials_and_invitation_email:
+        subject: Witamy w naszej aplikacji!
+        mainHeader: Witamy w naszej aplikacji!
+        login: Login
+        plainPassword: Hasło

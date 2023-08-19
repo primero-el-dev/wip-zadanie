@@ -1,0 +1,50 @@
+{
+	"general": {
+		"appName": "Apka",
+		"yes": "Tak",
+		"no": "Nie",
+		"actions": "Akcje",
+		"edit": "Edytuj",
+		"delete": "Usuń",
+		"submit": "Prześlij"
+	},
+	"navbar": {
+		"home": "Strona startowa",
+		"login": "Logowanie",
+		"userList": "Lista userów",
+		"logout": "Wyloguj",
+		"loggedOutSuccess": "Zostałeś wylogowany/a."
+	},
+	"pages": {
+		"userCreate": {
+			"mainHeader": "Rejestracja",
+			"successAlert": "You've registered successfully. Check your inbox for email with login."
+		},
+		"login": {
+			"mainHeader": "Logowanie"
+		},
+		"userList": {
+			"mainHeader": "Lista użytkowników",
+			"userUpdateSuccessAlert": "You've updated user successfully.",
+			"userDeleteSuccessAlert": "You've deleted user successfully.",
+			"userDeleteFailureAlert": "Something has gone wrong."
+		}
+	},
+	"user": {
+		"login": "Login",
+		"password": "Hasło",
+		"name": "Imię",
+		"surname": "Nazwisko",
+		"email": "Email",
+		"description": "Opis",
+		"job": "Pozycja",
+		"projectManagementMethodologies": "Metodologie zarządzania projektami",
+		"reportSystems": "Systemy raportujące",
+		"knowsScrum": "Zna Scrum",
+		"testingSystems": "Systemy testujące",
+		"knowsSelenium": "Zna Selenium",
+		"programmingLanguages": "Języki programowania",
+		"ideEnvironments": "Środowiska IDE",
+		"knowsMySQL": "Zna MySQL"
+	}
+}

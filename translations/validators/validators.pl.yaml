@@ -1,0 +1,51 @@
+entity:
+    user:
+        email:
+            notBlank: Adres email jest wymagany.
+            email: Adres email jest nieprawidłowy.
+            uniqueField: Adres email jest zajęty. Proszę wybrać inny.
+        name:
+            notBlank: Imię jest wymagane.
+            length:
+                min: Imię jest za krótkie.
+                max: Imię może mieć maksymalnie {{ limit }} znaków.
+            regex: Imię może składać sie tylko z liter.
+        surname:
+            notBlank: Nazwisko jest wymagane.
+            length:
+                min: Nazwisko jest za krótkie.
+                max: Nazwisko może mieć maksymalnie {{ limit }} znaków.
+            regex: Nazwisko może składać sie tylko z liter lub członow oddzielonych myślnikami.
+        description:
+            length:
+                max: Opis jest za długi.
+
+    tester:
+        testingSystems:
+            notBlank: Systemy testujące są wymagane.
+            length:
+                max: To pole może mieć maksymalnie {{ limit }} znaków.
+        reportSystems:
+            notBlank: Systemy raportujące są wymagane.
+            length:
+                max: To pole może mieć maksymalnie {{ limit }} znaków.
+
+    developer:
+        ideEnvironments:
+            notBlank: Środowiska IDE są wymagane.
+            length:
+                max: To pole może mieć maksymalnie {{ limit }} znaków.
+        programmingLanguages:
+            notBlank: Języki programowania są wymagane.
+            length:
+                max: To pole może mieć maksymalnie {{ limit }} znaków.
+                
+    projectManager:
+        projectManagementMethodologies:
+            notBlank: Metodologie zarządzania projektami są wymagane.
+            length:
+                max: To pole może mieć maksymalnie {{ limit }} znaków.
+        reportSystems:
+            notBlank: Systemy raportujące są wymagane.
+            length:
+                max: To pole może mieć maksymalnie {{ limit }} znaków.
